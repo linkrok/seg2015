@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Do you want to be responsible for this chore?"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:textColor="#000"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:id="@+id/textView5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:text="Accept"
+        android:textColor="#ff9933"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/accept"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        style="?android:attr/borderlessButtonStyle" />
+
+
+    <Button
+        android:text="Cancel"
+        android:textColor="#ff9933"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancel"
+        android:layout_alignBaseline="@+id/accept"
+        android:layout_alignBottom="@+id/accept"
+        android:layout_alignEnd="@+id/textView5"
+        style="?android:attr/borderlessButtonStyle" />
+
+    <Space
+        android:layout_width="250dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/accept"
+        android:layout_alignStart="@+id/accept" />
+
+</RelativeLayout>

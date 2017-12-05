@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="325dp"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:text="Create New User"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:id="@+id/textView7"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#1E1B1B" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/new_username"
+            android:layout_width="match_parent"
+            android:hint="Enter your desired username"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textView7"
+            android:layout_alignStart="@+id/textView7" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:id="@+id/new_password"
+            android:hint="Enter your desired password"
+            android:textSize="18sp"
+            android:layout_below="@+id/editText"
+            android:layout_alignStart="@+id/editText" />
+
+
+        <TextView
+            android:text="Pick your role from box bellow:"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView8"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#1E1B1B" />
+
+        <Spinner
+            android:id="@+id/role_combobox"
+            android:layout_height="35dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp">
+        </Spinner>
+
+        <Button
+            android:text="Create Account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:id="@+id/create_account"
+            android:layout_below="@+id/editText5"
+            android:layout_alignStart="@+id/button4" />
+
+        <Button
+            android:text="Back To Login Page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/button4"
+            android:layout_below="@+id/button3"
+            android:layout_centerHorizontal="true" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

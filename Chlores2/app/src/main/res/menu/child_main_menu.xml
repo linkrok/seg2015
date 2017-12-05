@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_menu"
+    android:background="#BE896F">
+
+    <item
+        android:id="@+id/home"
+        android:title="Main Menu"
+        android:icon="@drawable/ic_storage_black_24dp"
+        />
+
+    <item
+        android:id="@+id/my_chores"
+        android:title="My Chores"
+        android:icon="@drawable/ic_attachment_black_24dp"
+        />
+    <item
+        android:id="@+id/my_rewards"
+        android:title="@string/rewards"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        />
+    <item
+        android:id="@+id/log_out"
+        android:title="Log Out"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        />
+</menu>

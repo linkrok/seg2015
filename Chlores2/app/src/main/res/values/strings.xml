@@ -1,0 +1,24 @@
+<resources>
+    <string name="appname"><b><i>CHLORES</i></b></string>
+    <string name="mychlorelistmenu"><b><i>MY CHLORE LIST</i></b></string>
+    <string name="chlorehistorymenu"><b><i>PAST CHLORE LIST</i></b></string>
+    <string name="createchoremenu"><b><i>CREATE CHORE PAGE</i></b></string>
+    <string name="rewardsmenu"><b><i>REWARDS PAGE</i></b></string>
+    <string name="calendarStr"><b>Calendar</b></string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="home">Home</string>
+    <string name="create_task">Create Chore</string>
+    <string name="task_history">Chore History</string>
+    <string name="rewards">My Rewards</string>
+    <string name="settings">Settings</string>
+
+    <string-array name="role_choices">
+        <item>Parent</item>
+        <item>Roommate</item>
+        <item>Child</item>
+    </string-array>
+
+</resources>

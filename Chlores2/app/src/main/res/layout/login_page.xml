@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:srcCompat="?android:attr/textSelectHandle"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginRight="90dp"
+            android:id="@+id/imageView3"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="Username:"
+            android:layout_height="35dp"
+            android:id="@+id/textView3"
+            android:textSize="24sp"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:textColor="#1E1B1B"
+            android:layout_below="@+id/imageView3"
+            android:layout_alignStart="@+id/editText3" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/username_field"
+            android:hint="Enter Your Login Here"
+            android:layout_marginTop="22dp"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:layout_below="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:textColor="#000000" />
+
+        <TextView
+            android:text="Password:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:id="@+id/textView4"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:textColor="#1E1B1B"
+            android:layout_below="@+id/editText2"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:layout_marginTop="30dp"
+            android:id="@+id/password_field"
+            android:hint="Enter Passowrd Here"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/textView4"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center" />
+
+        <Button
+            android:text="Login"
+            android:layout_marginTop="13dp"
+            android:id="@+id/loginBut"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/editText3"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="New User"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:id="@+id/newUser"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/loginBut"
+            android:layout_alignStart="@+id/loginBut" />
+    </LinearLayout>
+
+</RelativeLayout>
