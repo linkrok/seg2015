@@ -3,10 +3,7 @@ package com.seg2015.e_prokop.chlores2.activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.NavigationView;
-import android.support.v4.widget.DrawerLayout;
 import android.support.v4.widget.SimpleCursorAdapter;
-import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -19,15 +16,8 @@ import android.widget.Toast;
 
 import com.seg2015.e_prokop.chlores2.R;
 
-/**
- * Created by e_prokop on 2017-11-24.
- */
-
 public class MyChore extends AppCompatActivity {
 
-    public DrawerLayout navigationMenu;
-    public ActionBarDrawerToggle toggle;
-    public NavigationView navigationView;
     private ListView choreList;
     private SimpleCursorAdapter choreTitleAdapter;
     private DatabaseHandler dbHandle;

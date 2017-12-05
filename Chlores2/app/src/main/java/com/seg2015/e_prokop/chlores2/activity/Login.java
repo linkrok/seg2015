@@ -12,9 +12,7 @@ import android.widget.EditText;
 
 import com.seg2015.e_prokop.chlores2.R;
 
-/**
- * Created by e_prokop on 2017-11-24.
- */
+
 
 public class Login extends AppCompatActivity {
     private DatabaseHandler dbHandle;

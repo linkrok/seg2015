@@ -15,9 +15,7 @@ import android.widget.AdapterView.OnItemSelectedListener;
 
 import com.seg2015.e_prokop.chlores2.R;
 
-/**
- * Created by e_prokop on 2017-11-24.
- */
+
 
 public class CreateAccount extends AppCompatActivity implements OnItemSelectedListener {
     private String usersRole;

@@ -21,9 +21,6 @@ import com.seg2015.e_prokop.chlores2.R;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by e_prokop on 2017-11-30.
- */
 
 public class EditChore extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     private DatabaseHandler dbHandle;

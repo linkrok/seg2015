@@ -1,8 +1,5 @@
 package com.seg2015.e_prokop.chlores2.activity;
 
-/**
- * Created by e_prokop on 2017-11-29.
- */
 
 public class Person {
     private String username, role;

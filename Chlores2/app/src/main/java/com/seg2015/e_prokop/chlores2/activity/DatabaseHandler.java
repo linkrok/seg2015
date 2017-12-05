@@ -29,8 +29,6 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
 
-        //db.execSQL("DROP TABLE IF EXISTS availableChores");
-
         String CREATE_ACCOUNT_TABLE = "CREATE TABLE IF NOT EXISTS " + TABLE_ACCOUNT + "("
                 + ACCOUNT_COLUMN_ID + " INTEGER PRIMARY KEY, 'Username' TEXT, 'Role' TEXT, 'Password' INTEGER, 'RewardAmount' INTEGER)";
         db.execSQL(CREATE_ACCOUNT_TABLE);

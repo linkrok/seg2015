@@ -21,10 +21,6 @@
             android:label="@string/appname">
         </activity>
         <activity
-            android:name=".activity.ChoreHistory"
-            android:label="@string/chlorehistorymenu">
-        </activity>
-        <activity
             android:name=".activity.MyChore"
             android:label="@string/mychlorelistmenu">
         </activity>
